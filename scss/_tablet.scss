@@ -1,0 +1,97 @@
+.title, h1 {
+	text-align:center;
+}
+
+.pictureMobile, .mobile-menu {
+	display:none;
+}
+
+.namelight {
+	color:$lpetrol;
+	text-align: left;
+}
+
+.namewhite {
+	color:$white;
+	text-align: left;
+}
+/* ***************************** */
+/* ********  this is me  ******* */
+/* ***************************** */
+
+.me-text {
+	width:50%;
+}
+
+.me-pic {
+	width:40%;
+	padding-left:5%;
+	padding-top:3%;
+
+	.wp-post-image {
+		width:90%;
+		height: auto;
+	}
+}
+/* ***************************** */
+/* ********* portfolio ********* */
+/* ***************************** */
+
+#portfolio {
+	width:100%;
+	height:670px;
+}
+
+.show-portfolio {
+
+	.titleLine {
+		margin: 0 auto;
+	}
+
+
+
+	p {
+		text-align: center;
+	}
+
+	.single-pic {
+		float:right;
+		width:60%;
+	}
+
+	.tags {
+		float:left;
+		margin-top: -3%;
+		width:40%;
+
+
+		h3, li {
+		font-size: 1.8em;
+		margin-top: 5%;
+	}
+	}
+}
+
+/* ***************************** */
+/* ********* my blog *********** */
+/* ***************************** */
+
+.blogposts p {
+	padding:0 5% 0 5%;
+
+}
+
+.sidebar {
+	max-width:100%;
+}
+
+/* ***************************** */
+/* ***********  404  *********** */
+/* ***************************** */
+
+.page-404 {
+
+	h3 {
+		font-size:1.2em;
+	}
+}

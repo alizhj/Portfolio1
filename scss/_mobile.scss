@@ -1,0 +1,223 @@
+h1 {
+	text-align:center;
+}
+/* ***************************** */
+/* *********** HOME ************ */
+/* ***************************** */
+
+.profile{
+	@include debuggingOutline;
+	margin-left:5%;
+	margin-top:-7%;
+	width:100%;
+
+	.name {
+		@include debuggingOutline;
+		font-size:1.5em;
+		text-transform:uppercase;
+		letter-spacing: 3px;
+		line-height: 0.8em;
+
+
+		
+
+		.namelight {
+			color:$lpetrol;
+			text-align: left;
+		}
+
+		.namewhite {
+			color:$white;
+			text-align: left;
+		}
+	}
+
+	.pictureMobile {
+		@include debuggingOutline;
+		height:400px;
+		margin-left:-5%;
+	}
+
+	.info {
+		display:none;
+	}
+}
+
+.site-nav ul li, .line, .picture, .site-nav2 {
+	display:none;
+}
+
+.pictureMobile .wp-post-image{
+	width: 100%;
+	height:auto;
+}
+
+//Navigation
+ul li a {
+	font-family:impact;
+	text-transform:uppercase;
+	font-size: 1em;
+}
+
+a.dropdown-link{
+	font-family:impact;
+	text-transform:uppercase;
+	font-size: 1.5em;
+
+	
+}
+
+.mobile-menu {
+  width: 100%;
+  position: relative;
+  /*padding: 0;*/
+  height: 70px;
+  line-height: 40px;
+  margin-top: -20px;
+  /* disable text selection by clicking */
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+.mobile-menu a.dropdown-link{
+  display: block;
+  height: 40px;
+  padding: 0 10px;
+  color: $lpetrol;
+  cursor: pointer;
+  background: #002C33;
+}
+
+.mobile-menu a.dropdown-link:hover{
+	text-decoration: none;
+}
+.mobile-menu a.dropdown-link i{
+	float: left;
+	position: relative;
+	top: 15px;
+
+}
+
+.mobile-dropdown {
+  display: none;
+  list-style-type: none;
+  background: #002C33;
+  padding: 0;
+  min-width: 125px;
+  position: relative;
+  z-index: 100;
+  margin: 0;
+}
+
+.mobile-dropdown li{
+  padding: 0;
+  height: auto;
+}
+
+.mobile-dropdown li a{
+  padding: 0;
+  color: $lpetrol;
+  display: block;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.mobile-dropdown li a:hover{
+  text-decoration: none;
+  background: $lpetrol;
+  color:black;
+}
+
+/* ***************************** */
+/* ********  THIS IS ME ******** */
+/* ***************************** */
+
+.me {
+	display:inline-block;
+	background-color:$white;
+	
+
+	.me-text, .me-pic {
+		margin-top: 3%;
+	}
+}
+
+.me-text {
+	width:90%;
+	padding: 0 5% 0 5%;
+	
+}
+
+.me-pic {
+	width:100%;
+	
+	margin-top:3%;
+
+	.wp-post-image {
+		width:90%;
+		height: auto;
+	}
+}
+
+/* ***************************** */
+/* ********  PORTFOLIO  ******** */
+/* ***************************** */
+
+#portfolio {
+	width:100%;
+	height:430px;
+}
+
+.portfolioThumb{
+	display:inline-block;
+	margin: 2% 2% 2% 2%;
+
+	.wp-post-image {
+		border-radius:50%;
+		width: 150px;
+		height: 150px;
+	}
+}
+
+
+/* ***************************** */
+/* **********  MY BLOG  ******** */
+/* ***************************** */
+
+.blogposts p {
+	padding:0 7% 0 7%;
+}
+
+.contact, .title, .title3 {
+	margin-left: 0;
+	text-align:center;
+	}
+
+.titleLine {
+		margin: 0 auto;
+		width:80%;
+	}
+
+.sidebar li ul li a{
+	font-family:verdana;
+	font-size:0.9em;
+}
+
+/* ***************************** */
+/* ***********  404  *********** */
+/* ***************************** */
+
+.page-404 {
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h3 {
+		font-size:1.2em;
+	}
+}

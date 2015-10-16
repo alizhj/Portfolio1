@@ -1,0 +1,421 @@
+.clearfix {
+	clear:both;
+}
+
+hr {
+	height:5px;
+	background-color:$white;
+}
+
+body {
+	background-image: url('../img/background2.png');
+	font-family:Verdana;
+	line-height:1.4em;
+}
+
+//headings
+
+h1, h2, h3 {
+	font-family: Impact, sans-serif;
+	text-transform:uppercase;
+	color: $lpetrol;
+}
+
+.title1 {
+	font-size:3em;
+}
+
+.title2, .title3 {
+	font-size:2em;
+}
+
+//text
+
+.text1 {
+	padding:0 5% 0 5%;
+}
+
+//links
+
+a {
+	text-decoration:none;
+}
+
+ul, li {
+	list-style-type:none;
+}
+
+.wp-post-image {
+	max-width:100%;
+	max-height:100%;
+}
+
+.menu-item-115 a {
+	color:$lpetrol;
+}
+
+.menu-item-115 a:hover {
+	color:$white;
+}
+
+/* ***************************** */
+/* ********  homepage  ********* */
+/* ***************************** */
+
+.line {
+	border-top:1px solid $white;
+	border-bottom:1px solid $white;
+	height:55px;
+	margin-right:5%;
+}
+
+.site-header {
+	margin-top:1%;
+	margin-left:5%;
+}
+
+.site-nav ul li {
+	list-style-type:none;
+	margin-right:8%;
+	text-align:center;
+	float:left;
+
+	a {
+		color:$white;
+		font-family: Verdana;
+		font-weight: bold; 
+	}
+
+	a:hover {
+		color:$lpetrol;
+	}
+}
+
+.profile{
+	@include debuggingOutline;
+	margin-left:5%;
+	width: 30%;
+	float:left;
+
+	.name {
+		@include debuggingOutline;
+		font-weight:800;
+		font-size:2.2em;
+		text-transform:uppercase;
+		letter-spacing: 4px;
+		margin: 0;
+		padding: 0;
+		line-height: 0.8em;
+		float:left;
+
+		.namelight {
+			color:$lpetrol;
+		}
+
+		.namewhite {
+			color:$white;
+		}
+	}
+
+	.info {
+		font-family:Verdana;
+		color:$white;
+		font-size:1em;
+		margin-top:15%;
+		margin-right:5%;
+	}
+
+	.socialmedia {
+		float:right;
+		margin-right:10%;
+		margin-top:5%;
+
+		.opacity1{
+			width:50px;
+			height:50px;
+			background-color:white;
+			border-radius:50%;
+			opacity:0.3;
+			margin-top: 15%;	
+		}
+
+		.fa {
+			position:relative;
+			color:$petrol;
+			font-size: 1.7em;
+			margin:23% 0 0 28%;	
+		}
+	}
+}
+
+.picture .wp-post-image{
+	@include debuggingOutline;
+	margin-top:-5%;
+	width:65%;
+	float:right;
+	height: auto;
+
+}
+
+.icons {
+	@include debuggingOutline;
+	background: url('../img/lisa.jpg') no-repeat center center;
+	height:50px;
+	width:50px;
+	z-index:2;
+}
+
+/* ***************************** */
+/* ********  this is me  ******* */
+/* ***************************** */
+
+.me {
+	display:inline-block;
+	background-color:$white;
+
+	.me-text, .me-pic {
+		float:left;
+		margin-top: 3%;
+	}
+}
+
+.me-text {
+	width:60%;
+}
+
+.me-pic {
+	width:30%;
+	margin-left:3%;
+	margin-top:3%;
+	margin-bottom:3%;
+
+	.wp-post-image {
+		width:70%;
+		height: auto;
+		box-shadow: 5px 5px 5px #888888;
+		border-radius:5%;
+	}
+}
+
+/* ***************************** */
+/* ********  portfolio  ******** */
+/* ***************************** */
+
+#portfolio {
+	width:100%;
+	height:430px;
+}
+
+.project {
+	text-align:center;
+	width: 100%;
+	height:auto;
+}
+
+.portfolioThumb{
+	display:inline-block;
+	margin: 2% 2% 2% 2%;
+
+	.wp-post-image {
+		border-radius:50%;
+		width: 250px;
+		height: 250px;
+		box-shadow: 5px 5px 5px #888888;
+	}
+}
+
+.page-portfolio, .show-portfolio {
+	background-color:$white;
+	height:auto;
+	width:100%;
+	position: absolute; 
+}
+
+.tags ul li a {
+	color:$lpetrol;
+}
+
+.show-portfolio {
+
+	img {
+		margin: 0 auto;
+		width: 90%;
+		height:auto;
+	}
+
+	p {
+		padding: 0 5% 0 5%;
+	}
+
+	.tags {
+		margin-top: 5%;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 5%;
+
+		h3, li {
+			font-size: 1.5em;
+			margin-top: 2%;
+		}
+
+		h3 {
+			margin: 0 auto;
+		}
+
+		li {
+			margin-left: -10%;
+		}
+	}
+}
+
+/* ***************************** */
+/* ********  contact me ******** */
+/* ***************************** */
+
+
+.wpcf7-form-control{
+	width:70%;
+}
+
+.wpcf7-text, .wpcf-textarea {
+	text-align: center;
+}
+
+.wpcf7-submit {
+
+}
+
+/* ***************************** */
+/* ********* my blog *********** */
+/* ***************************** */
+.title3, .comment-reply-title {
+	margin-left:5%;
+}
+
+
+.blogcontent {
+	background-color:$white;
+	max-width:100%;
+	display:inline-block;
+}
+
+.titleLine{
+	background-color: $petrol;
+	height:4px;
+	width: 60%;
+	margin-left:5%;
+}
+
+.myblog {
+	width: 100%;
+	
+	.blogposts {
+		padding-top:3%;
+		padding-bottom:3%	
+	}
+
+	.text1 {
+		font-family:Verdana;
+		font-size:0.8em;		
+	}
+	
+}
+
+.blogposts p a, .blogposts h3 a {
+	color: $lpetrol;
+}
+
+
+
+.sidebar {
+	background-color: $white;
+	max-width:100%;
+	padding: 0 5% 5% 5%;	
+
+	ul li a {
+		color:black;
+	}
+}
+
+
+.form-allowed-tags, .logged-in-as {
+	display:none;
+}
+
+/* ********* comments *********** */
+.blogposts .comments{
+
+	#comments-section{
+		margin-top:5%;
+	}
+
+	label {
+		display:none;
+	}
+
+	textarea, #submit {
+		margin-left: 5%;
+	}
+
+	p {
+		padding: 0 0 0 0;
+		
+	}
+
+	#reply-title {
+		margin-left: 5%;
+	}
+
+
+	.comment-author  {
+		font-weight: bold;
+	}
+
+	.text1 {
+		padding: 0 0 0 0;
+		margin-left: 5%;
+	}
+
+	.titleLine {
+		margin-left: -2%;
+		max-width: 30%;
+	}
+
+	#submit {
+		margin-bottom:5%;
+	}
+}
+
+/* ***************************** */
+/* ***********  404  *********** */
+/* ***************************** */
+
+.page-404 {
+	background-color: $white;
+	height:auto;
+	padding:10% 0 10% 0;
+	text-align:center;
+
+	h1 {
+		font-size: 4em;
+	}
+
+	h3 {
+		font-size:2em;
+	}
+}
+
+/* ***************************** */
+/* *********  footer  ********** */
+/* ***************************** */
+
+.site-footer {
+	width:100%;
+	background-image: url('../img/background2.png');
+	height: 50px;
+	text-align:center;
+
+	.copy {
+		margin-top:20px;
+	}
+}

@@ -1,0 +1,105 @@
+.title1 {
+	margin-left:3%;
+}
+
+
+/* ***************************** */
+/* **********  home  *********** */
+/* ***************************** */
+
+.pictureMobile, .mobile-menu {
+	display:none;
+}
+
+
+
+/* ***************************** */
+/* ********  THIS IS ME ******** */
+/* ***************************** */
+
+
+
+.me-pic {
+	
+	padding-top:1%;
+	
+
+	.wp-post-image {
+		width:90%;
+		height: auto;
+	}
+}
+
+
+
+
+/* ***************************** */
+/* ********  portfolio  ******** */
+/* ***************************** */
+
+.show-portfolio {
+	h1 {
+		margin-left: 5%;
+	}
+
+	h3, li {
+		font-size: 2em;
+		margin-top: 5%;
+	}
+
+	.titleLine {
+		margin-left: 5%;
+	}
+
+	p {
+		text-align: none;
+	}
+
+	.single-pic {
+		float:right;
+		width:70%;
+		height:400px;
+
+		img {
+			width:80%;
+			height:auto;
+		}
+	}
+
+	.tags {
+		text-align:none;
+		float:left;
+		width:30%;
+	}
+}
+
+/* ***************************** */
+/* ********* my blog *********** */
+/* ***************************** */
+
+.blogposts p {
+	padding:0 5% 0 5%;
+
+
+
+}
+.blogcontent{
+	background-color:$white;
+	height: 100%;
+
+	.blogposts {
+		padding-top: 1%;
+		width:60%;
+		float:left;
+
+		.titleLine {
+			max-width: 60%;
+		}
+	}
+
+	.sidebar {
+		width:25%;
+		margin-top:3%;
+		float:left;	
+	}
+}

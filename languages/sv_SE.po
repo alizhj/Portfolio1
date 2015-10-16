@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Portfolio_2015\n"
+"POT-Creation-Date: 2015-02-15 21:04+0100\n"
+"PO-Revision-Date: 2015-04-12 20:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_x;_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:9
+msgid "Primary Menu"
+msgstr "Huvudmeny"
+
+#: functions.php:64 functions.php:74
+msgid "Portfolio Skills"
+msgstr "Portfolio Färdigheter"
+
+#: functions.php:65
+msgid "Portfolio Skill"
+msgstr "Portfolio Färdighet"
+
+#: functions.php:66
+msgid "Search Portfolio Skills"
+msgstr "Sök Portfolio Färdigheter"
+
+#: functions.php:67
+msgid "All Product Skills"
+msgstr "Alla Färdigheter"
+
+#: functions.php:68
+msgid "Parent Portfolio Skill"
+msgstr "Förälder Portfolio Skill"
+
+#: functions.php:69
+msgid "Parent Portfolio Skill:"
+msgstr "Förälder Portfolio Skill:"
+
+#: functions.php:70
+msgid "Edit Portfolio Skill"
+msgstr "Ändra Portfolio Färdighet"
+
+#: functions.php:71
+msgid "Update Portfolio Skill"
+msgstr "Uppdatera Portfolio Färdighet"
+
+#: functions.php:72
+msgid "Add New Portfolio Skill"
+msgstr "Lägg till ny Portfolio Färdighet"
+
+#: functions.php:73
+msgid "New Portfolio Skill"
+msgstr "Ny Portfolio Färdighet"
+
+#: functions.php:158
+msgid "Your name"
+msgstr "Ditt namn"
+
+#: functions.php:168
+msgid "Firstname"
+msgstr "Förnamn"
+
+#: functions.php:170
+msgid "Sirname"
+msgstr "Efternamn"
+
+#: functions.php:201
+msgid "Settings for Portfolio 2015"
+msgstr "Inställningar för Portfolio 2015"
+
+#: functions.php:231
+msgid "Startpage settings (social media)"
+msgstr "Inställningar startsida (social media)"
+
+#: functions.php:271
+msgid "Onepage settings"
+msgstr "Inställningar för onepage-layout"
+
+#: functions.php:272
+msgid ""
+"Onepage always starts with Home, so choose pages that will be presented "
+"after Home"
+msgstr ""
+"Onpage-layout startar alltid med Home, så välj vilka sidor som ska "
+"presenteras efter den."
+
+#: functions.php:278
+msgid "Page one"
+msgstr "Sida ett"
+
+#: functions.php:307
+msgid "Page two"
+msgstr "Sida två"
+
+#: functions.php:336
+msgid "Page three"
+msgstr "Sida tre"
+
+#: functions.php:364
+msgid "Footer settings"
+msgstr "Inställningar sidfot"
+
+#: functions.php:369
+msgid "Copyright (use &copy)"
+msgstr "Rättigheter/copyright (använd &copy)"
+
+#: functions.php:377
+msgid "Copyyear"
+msgstr "Rättighetsår "
+
+#: functions.php:387
+msgid "Save changes"
+msgstr "Spara ändringar"
+
+#~ msgid "Startpage settings"
+#~ msgstr "Inställningar startsida"
+
+#~ msgid "firstname"
+#~ msgstr "Förnamn"
+
+#~ msgid "sirname"
+#~ msgstr "Efternamn"
+
+#~ msgid "lastname"
+#~ msgstr "Efternamn"

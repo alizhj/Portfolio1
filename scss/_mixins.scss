@@ -1,0 +1,15 @@
+$debugging: false;
+
+@mixin debuggingOutline{
+	@if $debugging{
+		outline:1px solid pink;
+	}
+}
+
+/* ---------- COLORS ------------- */
+$petrol:#006A7A;
+$lpetrol:#008BA1;
+$white:#eee;
+
+/* ---------- HEADINGS ----------- */
+
